@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entry.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlant.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacker.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameZombie.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberParticle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SocketInterface\SocketInterface.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SexyStruct.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="LawnStruct.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GamePlant.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="DllMain.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacker.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameZombie.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberParticle.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SocketInterface\SocketInterface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingDialog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SexyStruct.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LawnStruct.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MainDll.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="HouseofTerror.ttf" />
+    <Font Include="font2.ttf" />
+  </ItemGroup>
+</Project>
